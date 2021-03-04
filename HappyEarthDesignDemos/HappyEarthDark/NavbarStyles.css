@@ -1,0 +1,30 @@
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  padding: 0px 5px 5px 10px;
+  text-transform: uppercase;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  text-align: center;
+  width: 15%;
+  padding: 22px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  color: #33FFD7;
+}
+
+/* responsiveness - display the navbar vertically on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
