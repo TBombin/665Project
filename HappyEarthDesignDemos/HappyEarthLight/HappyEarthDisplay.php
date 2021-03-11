@@ -31,7 +31,7 @@ class HappyEarthDisplay {
                              <h1 id="blue">th</h1>
                         </div>
                         <div class="headerImage">
-                            <img id="globe" src="PastelGlobe.png" width ='200px' height="175px">
+                            <img id="globe" src="PastelGlobe.png" width ='250px' height="230px">
                         </div>
       
                     </div>
@@ -217,6 +217,29 @@ class HappyEarthDisplay {
                     <a href="$linkPage">[Back to Search Page]</a>
                     </p></section>
                 ABC;
+        echo $output;
+    }
+
+    function displayhomePage(){
+        $output = <<<ABC
+                <section>
+                    <div id ="welcome">
+                    <img src="fire.png" id="welcomeImage" alt="Friends enjoying time in nature">
+                    <h2 id="tagline">Your affordable, sustainable fashion destination</h2>
+                    <div>
+                    
+                    <div id="browse">
+                    <button href="search.php" id="browsebutton">Browse Hundreds of Unique Items</button>
+                    </div>
+
+                    <div id="launch">
+                    <button id="create" href="SignIn.php">Create Account</button>
+                    <button id="login" href="SignIn.php">Sign In</button>
+                    <button id="learn" href="SignIn.php">Learn More</button>
+                    </div>
+                </section>
+            ABC;
+
         echo $output;
     }
 

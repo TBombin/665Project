@@ -12,32 +12,45 @@ section {
   color: white;
 }
 
+.navbar {
+  position: relative;
+  z-index: 3;
+  overflow-x: auto;
+}
+
 /*header styles*/
 
 .headerContainer {
-  display: flex;
-  
+  height: 40vh;
+  width: 70vw;
 }
+
+.headerImage {
+  position: absolute;
+  right: 8vw;
+  top: 84px;
+  z-index: 0;
+}
+
 .headerText {
-  display: flex;
+  position: absolute;
+  left: 20vw;
+  height: fit-content;
+  align-content: center;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
-  font-size: 100px;
-  justify-content: center;
-}
-
-header > * {
-  border: 10px solid black;
-}
-
-.headerContainer > * {
-  border: 10px solid white;
+  font-size: 75px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  z-index: 1;
 }
 
 /* Logo Text Colors */
 /* pink color */
 #pink {
   color: #d61c5b;
+  position: relative;
 }
 
 /* red color*/
@@ -55,7 +68,7 @@ header > * {
   color: #6abc4e;
 }
 
-/* View Cart bluecolor */
+/*blue color */
 #blue {
   color: #2599d8;
 }
@@ -93,4 +106,37 @@ input[type=submit] {
 }
 .radiodiv > div {
   margin-right: 10px;
+}
+
+/*home page styles*/
+#welcome {
+  border: solid yellow 5px;
+  position: relative;
+  text-align: center;
+  max-height: 800px;
+}
+
+#welcomeImage{
+  opacity: 75%;
+  width: 100%;
+}
+
+#tagline {
+  text-transform: lowercase;
+  font-size: 55px;
+  color:white;
+  position: absolute;
+  bottom: 2px;
+  right: 16px;
+}
+
+#welcome {
+  border: solid yellow 5px;
+  position: relative;
+  text-align: center;
+}
+
+#browse {
+  width: 100%;
+  background-color: violet;
 }
