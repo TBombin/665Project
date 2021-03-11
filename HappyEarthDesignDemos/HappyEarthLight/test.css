@@ -1,0 +1,39 @@
+@import url(//fonts.googleapis.com/css?family=Vibur);
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+
+.headerContainer{
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 100px;
+}
+
+.headerText {
+    display: flex;
+}
+
+/* Logo Text Colors */
+/* pink color */
+#pink {
+    color: #d61c5b;
+  }
+  
+  /* red color*/
+  #red {
+    color: #f1573f;
+  }
+  
+  /* yellow color */
+  #yellow {
+    color: #feb213;
+  }
+  
+  /* green color */
+  #green {
+    color: #6abc4e;
+  }
+  
+  /* View Cart bluecolor */
+  #blue {
+    color: #2599d8;
+  }
